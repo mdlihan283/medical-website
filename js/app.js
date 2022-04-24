@@ -9,6 +9,8 @@ window.onscroll = () => {
   }
 };
 
+// counterup home
+
 function counter() {
   let counter = 0;
   let interval = setInterval(counting, 0.001);
@@ -16,7 +18,7 @@ function counter() {
   let interval3 = setInterval(counting3, 0.001);
   function counting() {
     document.getElementById("counting").textContent = counter;
-    counter = counter + 500000;
+    counter = counter + 5092237;
     if (counter >= 509220314) {
       clearInterval(interval);
     }
