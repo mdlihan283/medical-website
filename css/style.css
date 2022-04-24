@@ -226,8 +226,9 @@ section#about {
 .rightAbout h2 {
   font-size: 22px;
   border-bottom: 1px solid #e7e8ff;
-  padding: 15px 0px;
-  text-align: center;
+  padding: 15px 20px;
+
+  color: var(--grayDark);
 }
 
 .rightAbout ul li {
