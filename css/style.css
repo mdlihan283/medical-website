@@ -5,6 +5,7 @@
   --grayDark: #50658e;
   --primary: #2a81ea;
   --grayPrimary: #9cc2f7;
+  --green: #3dca93;
 }
 section {
   padding: 100px 0px;
@@ -393,6 +394,141 @@ section#symptoms {
 }
 
 /* styling prevention section */
+#prevention {
+  background-color: rgb(212, 237, 248);
+}
+
 #prevention .secTitle p {
   width: 70%;
+}
+
+.preventionWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.singlePrevention {
+  width: calc(25% - 20px);
+  text-align: center;
+}
+
+.topPreventionImg {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.topPreventionImg img {
+  border-radius: 50%;
+}
+.singlePrevention h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: var(--grayDark);
+}
+
+.singlePrevention p {
+  color: #333;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.preventionBotButton {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+/* styling protect section */
+section#protect {
+  background-color: rgb(212, 237, 248);
+}
+
+.protectWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: var(--pure);
+  padding: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.leftProtect {
+  width: 65%;
+}
+
+.rightImg {
+  width: 30%;
+}
+
+.leftProtect h1 {
+  font-size: 30px;
+  color: var(--grayDark);
+  margin-bottom: 25px;
+}
+
+.leftProtect ul li {
+  display: flex;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.leftProtect ul li i {
+  color: var(--green);
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin: 3px 10px 0px 0px;
+}
+/* styling wash hand */
+
+section#handWash {
+  background-color: rgb(212, 237, 248);
+}
+
+#handWash .secTitle .btn.transparent i {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.washWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.singleWash {
+  width: 16%;
+  text-align: center;
+}
+
+.washImg {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.washImg img {
+  border-radius: 50%;
+}
+
+.washContent h3 {
+  font-size: 16px;
+  color: var(--grayDark);
 }
